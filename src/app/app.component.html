@@ -1,0 +1,9 @@
+<app-header (typeChosen)="onTypeChosen($event)"></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes *ngIf="display('Recipes')"></app-recipes>
+      <app-shoping-list *ngIf="display('Shoping List')"></app-shoping-list>
+    </div>
+  </div>
+</div>
