@@ -3,9 +3,9 @@ import { Ingredients } from "../shared/ingredient.model";
 import { ShoppingListService } from "./shopping-list.service";
 
 @Component({
-  selector: "app-shoping-list",
-  templateUrl: "./shoping-list.component.html",
-  styleUrls: ["./shoping-list.component.css"]
+  selector: "app-shopping-list",
+  templateUrl: "./shopping-list.component.html",
+  styleUrls: ["./shopping-list.component.css"]
 })
 export class ShopingListComponent implements OnInit {
 

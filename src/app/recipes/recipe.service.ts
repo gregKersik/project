@@ -30,5 +30,9 @@ export class RecipeService {
     return this.recipes.slice(); //slice will return copy of the original array instance
   }
 
+  getRecipe(id: number): Recipe{
+    return this.recipes[id];
+  }
+
 
 }
